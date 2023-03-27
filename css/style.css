@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@500&family=Oswald:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.fondo{
+    background-image: url(../assets/Desktop\ -\ 2.png);
+}
+.a-ayuda{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-right: 8px
+}
+.linea-de-ayuda{
+    background-color: rgba(209, 209, 209, 1);
+    height: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 24px;
+}
+.img-de-entrada img{
+    height: 100%;
+    width: 100%;
+}
+.banner{
+    border: solid rgba(27, 25, 25, 0.9) 1px;
+    background-color: rgba(36, 32, 32, 0.9);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.img-y-envios{
+    display: grid;
+    grid-template-rows: 82% 18%;
+}
+.subtitulo-lo-mas-vendido{
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.lo-mas-vendido{
+    gap: 68px;
+    width: 1018px;
+    display: flex;
+    justify-content: center;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+.articulos{
+    height: 375px;
+    width: 240px;
+}
+footer{
+    background-color: rgba(0, 67, 71, 1);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;   
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+.odm{
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    color: black;
+    margin: 24px;
+}
+.mes1{
+    display: flex;
+    justify-content: center;
+}
+.mes2{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+footer{
+    margin-top: 50px;
+}
+.encontranos{
+    color: white;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.contactanos{
+    color: white;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dire h3{
+    color: white;
+    font-size: 22px;
+}
+.adress{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.numero{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 80px;
+}
+.numero h3{
+    font-size: 22px;
+}
+.medios-d-p{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.medios-h3{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.tarjetas{
+    margin-left: 40px;
+    width: 634px;
+}
+.creador{
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.filtrado{
+    display: flex;
+    justify-content: end;
+    margin-right: 28px;
+    margin-top: 38px;
+    gap: 70%;
+}
+.checkbox{
+    font-size: 18px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.checkbox div input{
+    height: 18px;
+    width: 18px;
+}
+.filtrado select{
+    height: 48px;
+    width: 100%;
+    border: solid rgb(20, 130, 136) 1px;
+    background-color: rgba(37, 183, 192, 1);
+    font-size: 16px;
+}
+.news{
+    margin-bottom: 12%;
+    height: 70%;
+    gap: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:25% 25% 25% 25%;
+}
+.news img{
+    border: solid black 1px;
+    width: 100%;
+    height: 100%;
+}
+.contenedor-de-new{
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+}
+.inicio-sesion{
+   margin-top: 6%;
+   display: grid;
+   grid-template-rows: 20% 20% 20% 20% 20%;
+   grid-template-columns: 40% 40% 40%;
+   gap: 16%;
+   align-items: center;
+   justify-content: center;
+}
+.poner-email{
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    height: 80px;
+    width: 100%;
+    grid-area: 1 / 2 / 1 / 2;
+    flex-direction: column;
+}
+.poner-email input{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid black 1px;
+}
+.poner-pass{
+    gap: 8px;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    grid-area: 2 / 2 / 2 / 2;
+    flex-direction: column;
+}
+.poner-pass input{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid black 1px;
+}
+.olv-pass{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: rgb(12, 84, 179);
+    font-family: 'Inter', sans-serif;
+}
+.iniciar-la-sesion{
+    grid-column: 2/2;
+    grid-row: 3/5;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.submit-i{
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    border: solid black 1px;
+}
+.foot-acount{
+    margin-top: 10%;
+}
+.text-acount{
+    font-size: 14px;
+}
+.crear-cuenta{
+    text-decoration: none;
+    color: rgb(12, 84, 179);
+    font-family: 'Inter', sans-serif;
+}
+.container-fluid{
+    gap: 48px;
+    background-color: rgba(37, 183, 192, 1);
+}
+.navbar{
+    padding: 0px;
+}
+#navbarSupportedContent{
+    gap: 4%;
+}
+.navbar-nav{
+    gap: 42px;
+}
+.d-flex{
+    width: 54%;
+}
+.btn{
+    background-color: rgba(0, 67, 71, 1); 
+    color: white;
+    border: none;
+}
+.dropdown-menu{
+    background-color: rgba(37, 183, 192, 1);
+}
+.contenedor-de-buzos{
+    margin-right: 80px;
+    display: flex;
+    justify-content: end;
+}
+.buzos{
+    margin-bottom: 12%;
+    height: 70%;
+    width: 80%;
+    gap: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:25% 25% 25% 25%;
+}
+.buzos img{
+    border: solid black 1px;
+    width: 100%;
+    height: 100%;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.page-link{
+    background-color: rgba(0, 67, 71, 1);
+    color: white;
+    border: none;
+}
+.preg-frecuentes{
+    margin-top: 6%;
+}
+.sucursales{
+    margin-top: 3%;
+}
+.quienes-somos{
+    margin-top: 2%;
+}
+.ubications{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+}
+.ubi1{
+    width:377px;
+    height:377px;
+    border: solid black 1px;
+}
+.ubi2{
+    border: solid black 1px;
+}
+@media (max-width:1024px){
+    .container-fluid{
+        gap: 2%;
+    }
+    .navbar-nav{
+        gap: 18px;
+    }
+    .lo-mas-vendido{
+        gap: 10px;
+    }
+    .mes1 img{
+        height: 480px;
+        width: 300px;
+    }
+    .mes2 img{
+        height: 480px;
+        width: 300px;
+    }
+    .news{
+        padding-left: 85px;
+    }
+    .checkbox h5{
+        font-size: 17px;
+    }
+}
+@media (max-width:768px){
+    .banner img{
+        width: auto;
+        height: 100%;
+    }
+    .subtitulo-lo-mas-vendido{
+        font-size: 34px;
+        align-items: center;
+        justify-content: center;
+    }
+    .odm{
+        font-size: 34px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lo-mas-vendido{
+        gap: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .articulos{
+        height: 250px;
+        width: 160px;
+    }
+    .mes1 img{
+        height: 320px;
+        width: 200px;
+    }
+    .mes2 img{
+        height: 320px;
+        width: 200px;
+    }
+    .encontranos{
+        font-size: 16px;
+    }
+    .contactanos{
+        font-size: 22px;
+    }
+    .creador{
+        font-size: 13px;
+    }
+    .medios-h3{
+        font-size: 16px;
+    }
+    .tarjetas{
+        margin-left: 40px;
+        width: 70%;
+    }
+    .checkbox{
+        width: 30%;
+    }
+    .checkbox h5{
+        font-size: 17px;
+    }
+    .filtrado select{
+        width: 138px;
+        height: 52px;
+        font-size: 12px;
+    }
+}
+@media (max-width:320px){
+    .img-de-entrada{
+         width: 60%;
+    }
+    .banner{
+        width: 60%;
+    }
+    .lo-mas-vendido{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-rows: (1fr x 4);
+        grid-template-columns: (1fr x 3);
+    }
+    .articulos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px; 
+    }
+    .linea-de-ayuda{
+        justify-content:center ;
+    }
+    .mes1{
+        display: grid;
+        grid-template-rows: (1fr x 3);
+        grid-template-columns: (1fr x 1);
+        gap: 10px;
+    }
+    .mes2{
+        display: grid;
+        grid-template-rows: (1fr x 3);
+        grid-template-columns: (1fr x 1);
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .face{
+        width: 33px;
+        height: 33px;
+    }
+    .ig{
+        width: 40px;
+        height: 40px;
+    }
+    .encontranos{
+        margin-bottom: 3px;
+        margin-left: 3px;
+    }
+    .contactanos{
+        font-size: 16px;
+    }
+    .dire h3 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .adress img{
+        width: 30px;
+        height: 30px;
+    }
+    .numero{
+        margin-bottom: 0px;
+        padding-bottom: 25px;
+    }
+    .numero h3{
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .numero img{
+        width: 26px;
+        height: 26px;
+    }
+    .medios-h3{
+        font-size: 12px;
+        margin-left: 2px;
+        margin-bottom: 4px
+    }
+    .tarjetas{
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .creador{
+        font-size: 10px;
+    }
+    .news{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        padding: 0px;
+        padding-left: 20px;
+        gap: 10px;
+    }
+    .div-foto-new{
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor-de-new{
+        margin-right: 7%;
+    }
+    .news img {
+        border: solid black 1px;
+        width: 100%;
+        height: 100%;
+    }
+    .lista-de-filtros{
+        height: 20px;
+    }
+    .checkbox{
+        flex-direction: row;
+    }
+    .filtrado{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        margin-left: 5px;
+        padding-bottom: 10px;
+    }
+    .filtrado select{
+        width: 166px;
+    }
+}
