@@ -1,0 +1,49 @@
+header{
+    .linea-de-ayuda{
+        background-color: rgba(209, 209, 209, 1);
+         height: 18px;
+         width: 100%;
+         display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 24px;
+            .a-ayuda{
+                text-decoration: none;
+                color: black;
+                font-family: 'Inter', sans-serif;
+                font-size: 13px;
+                margin-right: 8px
+            }
+    }
+    
+    .navbar{
+         padding: 0px;
+        div{
+            gap: 48px;
+            background-color: rgba(37, 183, 192, 1);  
+            div{
+                form{
+                    width: 54%; 
+                    .btn{
+                        background-color: rgba(0, 67, 71, 1); 
+                        color: white;
+                        border: none;
+                    }
+                }
+                ul{
+                    gap: 40px; 
+                    li{
+                        .dropdown-menu{
+                            background-color: rgba(37, 183, 192, 1);
+                        
+                        }
+                    
+                    }
+                
+                }
+            }    
+        }   
+    
+    }
+
+}
