@@ -1,0 +1,47 @@
+main{
+    .filtrado{
+        display: flex;
+        justify-content: end;
+        margin-right: 28px;
+        margin-top: 38px;
+        gap: 70%;
+        .checkbox{
+            font-size: 18px;
+            gap: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+        div{
+            input{
+                height: 18px;
+                width: 18px;
+            }
+        }
+        select{
+            height: 48px;
+            width: 100%;
+            border: solid rgb(20, 130, 136) 1px;
+            background-color: rgba(37, 183, 192, 1);
+            font-size: 16px;
+        }
+    }
+    .contenedor-de-new{
+        display: flex;
+        justify-content: end;
+        margin-right: 8%;
+        .news{
+            margin-bottom: 12%;
+            height: 70%;
+            gap: 20px;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows:25% 25% 25% 25%;
+        }
+        .news img{
+            border: solid black 1px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

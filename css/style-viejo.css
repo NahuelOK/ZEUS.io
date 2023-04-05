@@ -329,6 +329,7 @@ footer{
 .ubi2{
     border: solid black 1px;
 }
+/*
 @media (max-width:1024px){
     .container-fluid{
         gap: 2%;
@@ -379,7 +380,7 @@ footer{
         height: 250px;
         width: 160px;
     }
-    .mes1 img{
+    .mes1s img{
         height: 320px;
         width: 200px;
     }
@@ -438,7 +439,7 @@ footer{
     .linea-de-ayuda{
         justify-content:center ;
     }
-    .mes1{
+    .mess1{
         display: grid;
         grid-template-rows: (1fr x 3);
         grid-template-columns: (1fr x 1);
@@ -536,3 +537,4 @@ footer{
         width: 166px;
     }
 }
+*/

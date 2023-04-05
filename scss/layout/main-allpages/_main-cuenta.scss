@@ -1,0 +1,83 @@
+main{
+    .inicio-sesion{
+        margin-top: 6%;
+        display: grid;
+        grid-template-rows: 20% 20% 10% 20% 20%;
+        grid-template-columns: 40% 40% 40%;
+        align-items: center;
+        justify-content: center;
+        .poner-email{
+            gap: 8px;
+            display: flex;
+            align-items: flex-start;
+            height: 80px;
+            width: 100%;
+            grid-column: 2/2;
+            grid-row: 1/1;
+            flex-direction: column;
+            .text-acount{
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+            input{
+                width: 100%;
+                height: 40%;
+                background-color: rgba(240, 248, 255, 0);
+                border: solid black 1px;
+            }
+        }
+        .poner-pass{
+            gap: 2px;
+            display: flex;
+            height: 80px;
+            width: 100%;
+            grid-column: 2/2;
+            grid-row: 2/2;
+            flex-direction: column;
+            .text-acount{
+                font-size: 14px;
+            }
+            input{
+                width: 100%;
+                height: 40%;
+                background-color: rgba(240, 248, 255, 0);
+                border: solid black 1px;
+                
+            }
+            .olv-pass{
+                display: flex;
+                justify-content: end;
+                text-decoration: none;
+                color: rgb(12, 84, 179);
+                font-family: 'Inter', sans-serif;
+                .text-acount{
+                    font-size: 14px;
+                    margin: 0%;
+                }
+            }
+        }
+        .iniciar-la-sesion{
+            margin-top: 28%;
+            grid-column: 2/2;
+            grid-row: 3/3;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            .submit-i{
+                height: 30px;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                font-size: 15px;
+                border: solid black 1px;
+            }
+            .text-acount{
+                font-size: 16px;
+                .crear-cuenta{
+                    text-decoration: none;
+                    color: rgb(12, 84, 179);
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+        }
+    }
+}
