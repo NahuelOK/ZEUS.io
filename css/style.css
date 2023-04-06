@@ -257,3 +257,86 @@ main .inicio-sesion {
         text-decoration: none;
         color: #0c54b3;
         font-family: 'Inter', sans-serif; }
+
+main div {
+  padding-top: 5%;
+  padding-bottom: 3%; }
+  main div .quienes-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 34px;
+    padding-bottom: 15px; }
+  main div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px; }
+
+main div {
+  padding-left: 1%; }
+  main div .contacta {
+    color: black;
+    font-size: 34px; }
+  main div h3 {
+    padding-top: 18px;
+    color: black;
+    font-size: 20px; }
+
+main .sucursales {
+  padding-top: 5%;
+  padding-bottom: 3%; }
+  main .sucursales h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 34px;
+    padding-bottom: 15px; }
+  main .sucursales p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px; }
+
+main .ubications {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 60px; }
+  main .ubications .datos1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; }
+  main .ubications .datos2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; }
+  main .ubications .ubi {
+    border: solid black 2px;
+    width: 400px;
+    height: 400px;
+    margin-left: 74px; }
+
+main .ayuda .pf h2 {
+  display: flex;
+  justify-content: center; }
+
+main .ayuda .pf .preguntas .pregunta .pregg {
+  font-size: 22px;
+  display: flex;
+  justify-content: start; }
+
+main .ayuda .pf .preguntas .pregunta .resp {
+  font-size: 19px;
+  display: flex;
+  justify-content: start; }
+
+main .cambios-y-d h2 {
+  display: flex;
+  justify-content: center; }

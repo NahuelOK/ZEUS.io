@@ -1,0 +1,45 @@
+main{
+    .sucursales{
+        padding-top: 5%;
+        padding-bottom: 3%;
+        h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 34px;
+            padding-bottom: 15px;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 22px;
+        }   
+    }
+    .ubications{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap: 60px;
+        .datos1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 35px;
+        }
+        .datos2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 35px;
+        }       
+        .ubi{
+            border: solid black 2px;
+            width: 400px;
+            height: 400px;
+            margin-left: 74px;
+        }
+    }
+}

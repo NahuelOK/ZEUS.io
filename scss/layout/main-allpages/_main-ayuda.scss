@@ -1,0 +1,30 @@
+main{
+    .ayuda{
+        .pf{
+            h2{
+                display: flex;
+                justify-content: center;
+            }
+            .preguntas{
+                .pregunta{
+                    .pregg{
+                        font-size: 22px;
+                        display: flex;
+                        justify-content: start;
+                    }
+                    .resp{
+                        font-size: 19px;
+                        display: flex;
+                        justify-content: start;
+                    }
+                }
+            }
+        }
+    }
+    .cambios-y-d{
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
