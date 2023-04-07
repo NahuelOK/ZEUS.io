@@ -1,7 +1,9 @@
 main{
     .ayuda{
         .pf{
+            padding-top: 2%;
             h2{
+                color: black;
                 display: flex;
                 justify-content: center;
             }
@@ -22,9 +24,60 @@ main{
         }
     }
     .cambios-y-d{
+        padding-top: 2%;
         h2{
             display: flex;
             justify-content: center;
+            color: black;
+        }
+        .intro-dyd{
+                    font-size: 19px;
+                    display: flex;
+                    justify-content: start;
+        }
+        .cambios{
+                display: flex;
+                justify-content: center;
+                font-size: 24px;
+        }
+        .cambios-list{
+                    font-size: 19px;
+                    justify-content: start;
+
+        }
+        .devoluciones{
+                display: flex;
+                justify-content: center;
+                font-size: 24px;
+        }
+        .devoluciones-list{
+                    font-size: 19px;
+                    justify-content: start;
+        }
+        .fin-cyd{
+                font-size: 19px;
+                display: flex;
+                justify-content: start;
+        }
+    }
+    .cuidado-de-prendas{
+        h2{
+            display: flex;
+            justify-content: center;
+            color: black;
+        }
+        .intro-cdp{
+                    font-size: 19px;
+                    display: flex;
+                    justify-content: start;
+                    color: black;
+        }
+        .consejos{
+                    font-size: 19px;
+                    justify-content: start;
+        }
+        .fin-cuidados{
+            color: black;
         }
     }
 }
