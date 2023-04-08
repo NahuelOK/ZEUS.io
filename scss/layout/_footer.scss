@@ -1,5 +1,5 @@
 footer{
-    background-color: rgba(0, 67, 71, 1);
+    background-color: $color-principal-B;
     margin-top: 50px;
     .encontranos{
         color: white;
@@ -7,12 +7,10 @@ footer{
         margin-left: 6px;
     }
     .ig{
-        width: 50px;
-        height: 50px;
+       @include alto-ancho(50px,50px);
     }
     .face{
-        width: 43px;
-        height: 43px;
+        @include alto-ancho(43px,43px);
     }
     .contactanos{
         color: white;
@@ -22,20 +20,14 @@ footer{
         margin-top: 30px;
     }
     .adress{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
+        @include display-flex(flex,row-reverse,center,center);
         h3{
             color: white;
             font-size: 22px;  
         }
     }
     .numero{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
+        @include display-flex(flex,row-reverse,center,center);
         color: white;
         margin-bottom: 80px;
         h3{

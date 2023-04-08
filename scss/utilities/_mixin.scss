@@ -1,0 +1,10 @@
+@mixin display-flex($dis, $flexd, $justc, $aling){
+    display:$dis;
+    flex-direction:$flexd;
+    justify-content:$justc;
+    align-items: $aling;
+}
+@mixin alto-ancho($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}

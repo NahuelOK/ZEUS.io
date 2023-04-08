@@ -1,9 +1,8 @@
 header{
     .linea-de-ayuda{
-        background-color: rgba(209, 209, 209, 1);
-         height: 18px;
-         width: 100%;
-         display: flex;
+        background-color: $color-barra-ayuda;
+        @include alto-ancho(18px,100%);
+        display: flex;
         justify-content: end;
         align-items: center;
         gap: 24px;
@@ -21,7 +20,7 @@ header{
          padding: 0px;
         div{
             gap: 48px;
-            background-color: rgba(37, 183, 192, 1);  
+            background-color: $color-principal-A;  
             .navbar-brand{
                 padding-left: 8px;
             }
@@ -29,7 +28,7 @@ header{
                 form{
                     width: 54%; 
                     .btn{
-                        background-color: rgba(0, 67, 71, 1); 
+                        background-color: $color-principal-B; 
                         color: white;
                         border: none;
                     }
@@ -38,7 +37,7 @@ header{
                     gap: 40px; 
                     li{
                         .dropdown-menu{
-                            background-color: rgba(37, 183, 192, 1);
+                            background-color: $color-principal-A;
                         
                         }
                     

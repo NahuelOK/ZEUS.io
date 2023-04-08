@@ -14,15 +14,13 @@ main{
         }
         div{
             input{
-                height: 18px;
-                width: 18px;
+                @include alto-ancho(18px,18px);
             }
         }
         select{
-            height: 48px;
-            width: 100%;
+            @include alto-ancho(48px,100%);
             border: solid rgb(20, 130, 136) 1px;
-            background-color: rgba(37, 183, 192, 1);
+            background-color: $color-principal-A;
             font-size: 16px;
         }
     }
@@ -41,8 +39,7 @@ main{
         }
         .news img{
             border: solid black 1px;
-            width: 100%;
-            height: 100%;
+            @include alto-ancho(100%,100%);
         }
     }
 }

@@ -37,8 +37,7 @@ main{
         }       
         .ubi{
             border: solid black 2px;
-            width: 400px;
-            height: 400px;
+            @include alto-ancho(400px,400px);
             margin-left: 74px;
         }
     }
