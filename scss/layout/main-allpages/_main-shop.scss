@@ -1,0 +1,24 @@
+main{
+    .contenedor-de-prendas{
+        margin-right: 80px;
+        display: flex;
+        justify-content: end;
+        padding-top: 0%;
+        .prendas{
+            margin-bottom: 12%;
+            height: 70%;
+            width: 80%;
+            gap: 20px;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows:25% 25% 25% 25%;
+            padding-top: 0%;
+            img{
+                border: solid black 1px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

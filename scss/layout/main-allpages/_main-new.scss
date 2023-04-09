@@ -28,6 +28,7 @@ main{
         display: flex;
         justify-content: end;
         margin-right: 8%;
+        padding-top: 0%;
         .news{
             margin-bottom: 12%;
             height: 70%;
@@ -36,6 +37,7 @@ main{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows:25% 25% 25% 25%;
+            padding-top: 0%;
         }
         .news img{
             border: solid black 1px;
