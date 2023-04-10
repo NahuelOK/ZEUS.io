@@ -216,13 +216,58 @@ main .contenedor-de-new {
     height: 100%;
     width: 100%; }
 
+main .h3-registro {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 3%; }
+
+main .crear {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 20% 10% 20%;
+  grid-template-rows: 33% 33% 33% 33%;
+  padding-left: 6%; }
+  main .crear .h4-crear {
+    font-size: 14px;
+    color: black; }
+  main .crear .nombre {
+    grid-row: 1/1;
+    grid-column: 1/1; }
+  main .crear .apellido {
+    grid-row: 1/1;
+    grid-column: 3/3; }
+  main .crear .nacimiento {
+    grid-row: 2/2;
+    grid-column: 1/1; }
+    main .crear .nacimiento input {
+      width: 70%; }
+  main .crear .email-crear {
+    grid-row: 2/2;
+    grid-column: 3/3; }
+  main .crear .crear-pass {
+    grid-row: 3/4;
+    grid-column: 3/3; }
+    main .crear .crear-pass input {
+      margin-bottom: 10px; }
+  main .crear .boton-registro {
+    grid-row: 4/4;
+    grid-column: 1/1; }
+    main .crear .boton-registro input {
+      width: 80%;
+      background-color: black;
+      color: white; }
+
 main .inicio-sesion {
   margin-top: 6%;
   display: grid;
   grid-template-rows: 20% 20% 10% 20% 20%;
   grid-template-columns: 40% 40% 40%;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 0px; }
   main .inicio-sesion .poner-email {
     gap: 8px;
     display: flex;
