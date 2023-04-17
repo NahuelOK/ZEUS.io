@@ -476,8 +476,6 @@ main .ubications {
     font-size: 12px; } }
 
 @media (max-width: 425px) {
-  footer {
-    margin-top: 0px; }
   header .linea-de-ayuda {
     align-items: center;
     justify-content: center; }
@@ -507,8 +505,10 @@ main .ubications {
     flex-direction: column;
     align-items: center;
     gap: 10px; }
+  footer {
+    margin-top: 0px; }
   footer .encontranos {
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 2px;
     margin-left: 2px; }
   footer .ig {
@@ -518,11 +518,11 @@ main .ubications {
     height: 28px;
     width: 31px; }
   footer .contactanos {
-    font-size: 18px; }
+    font-size: 20px; }
   footer .adress h3 {
-    font-size: 12px; }
+    font-size: 14px; }
   footer .numero h3 {
-    font-size: 12px; }
+    font-size: 14px; }
   .adress img {
     height: 26px;
     width: 26px; }
@@ -532,12 +532,43 @@ main .ubications {
   footer .numero {
     margin-bottom: 12px; }
   footer .medios-d-p h3 {
-    font-size: 11px; }
+    font-size: 12px; }
   footer .medios-d-p img {
     margin-left: 3px;
     width: 244px; }
   footer .medios-d-p h3 {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  main .filtrado {
+    flex-direction: column;
+    margin-top: 5px; }
+  main .filtrado .checkbox {
+    flex-direction: row; }
+  main .contenedor-de-new .news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    padding: 0px;
+    padding-left: 20px;
+    gap: 10px; }
+  main .contenedor-de-new .news .div-foto-new {
+    width: 100%;
+    height: 100%; }
+  main .contenedor-de-new {
+    margin-right: 13%; }
+  main .contenedor-de-new .news img {
+    border: solid black 1px;
+    width: 100%;
+    height: 100%; }
+  main .inicio-sesion {
+    gap: 20px; }
+  main .inicio-sesion .poner-email input {
+    height: 39%; }
+  main div .quienes-somos {
+    font-size: 30px; }
+  main div p {
+    font-size: 19px; }
+  main div .contacta {
+    font-size: 31px; } }
 
 @media (max-width: 375px) {
   footer {
@@ -572,7 +603,7 @@ main .ubications {
     align-items: center;
     gap: 10px; }
   footer .encontranos {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 2px;
     margin-left: 2px; }
   footer .ig {
@@ -582,11 +613,11 @@ main .ubications {
     height: 28px;
     width: 31px; }
   footer .contactanos {
-    font-size: 18px; }
+    font-size: 19px; }
   footer .adress h3 {
-    font-size: 12px; }
+    font-size: 13px; }
   footer .numero h3 {
-    font-size: 12px; }
+    font-size: 13px; }
   .adress img {
     height: 26px;
     width: 26px; }
@@ -601,7 +632,38 @@ main .ubications {
     margin-left: 3px;
     width: 244px; }
   footer .medios-d-p h3 {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  main .filtrado {
+    flex-direction: column;
+    margin-top: 5px; }
+  main .filtrado .checkbox {
+    flex-direction: row; }
+  main .contenedor-de-new .news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    padding: 0px;
+    padding-left: 20px;
+    gap: 10px; }
+  main .contenedor-de-new .news .div-foto-new {
+    width: 100%;
+    height: 100%; }
+  main .contenedor-de-new {
+    margin-right: 13%; }
+  main .contenedor-de-new .news img {
+    border: solid black 1px;
+    width: 100%;
+    height: 100%; }
+  main .inicio-sesion {
+    gap: 20px; }
+  main .inicio-sesion .poner-email input {
+    height: 39%; }
+  main div .quienes-somos {
+    font-size: 29px; }
+  main div p {
+    font-size: 18px; }
+  main div .contacta {
+    font-size: 28px; } }
 
 @media (max-width: 320px) {
   footer {
@@ -690,4 +752,10 @@ main .ubications {
   main .inicio-sesion {
     gap: 20px; }
   main .inicio-sesion .poner-email input {
-    height: 39%; } }
+    height: 39%; }
+  main div .quienes-somos {
+    font-size: 27px; }
+  main div p {
+    font-size: 17px; }
+  main div .contacta {
+    font-size: 26px; } }
