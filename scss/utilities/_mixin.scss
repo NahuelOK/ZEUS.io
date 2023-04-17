@@ -123,6 +123,180 @@
     }
     }
 }
+@mixin screen-425px{
+  @media (max-width:$screen-425){
+      footer{
+        margin-top: 0px;
+      }
+      header .linea-de-ayuda {
+        align-items: center;
+        justify-content: center;
+      }
+      .img-banner {
+        height: auto;
+        width: 105px;
+    }
+    .img-y-envios .banner {
+      height: 162%;
+    }
+      main .carrusel .lo-mas-vendido {
+        gap: 10px;
+        margin-right: 3px;
+    }
+    main .subtitulo-lo-mas-vendido {
+        margin-top: 44px;
+        margin-bottom: 9px;
+    }
+    main .carrusel .lo-mas-vendido {
+      flex-direction: column;
+      align-items: center;
+    }
+    main .mes1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    main .mes2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    footer .encontranos {
+      font-size: 15px;
+      margin-bottom: 2px;
+      margin-left: 2px;
+    }
+    footer .ig {
+      height: 34px;
+      width: 34px;
+    }
+    footer .face {
+      height: 28px;
+      width: 31px;
+    }
+    footer .contactanos {
+      font-size: 18px;
+    }
+    footer .adress h3 {
+      font-size: 12px;
+    }
+    footer .numero h3 {
+      font-size: 12px;
+    }
+    .adress img {
+      height: 26px;
+      width: 26px;
+    }
+    .numero img {
+      height: 25px;
+      width: 25px;
+    }
+    footer .numero {
+      margin-bottom: 12px;
+    }
+    footer .medios-d-p h3 {
+      font-size: 11px;
+    }
+    footer .medios-d-p img {
+      margin-left: 3px;
+      width: 244px;
+    }
+    footer .medios-d-p h3 {
+        margin-left: 0px;
+    }
+  }
+}  
+@mixin screen-375px{
+  @media (max-width:$screen-375){
+      footer{
+        margin-top: 0px;
+      }
+      header .linea-de-ayuda {
+        align-items: center;
+        justify-content: center;
+      }
+      .img-banner {
+        height: auto;
+        width: 105px;
+    }
+    .img-y-envios .banner {
+      height: 162%;
+    }
+      main .carrusel .lo-mas-vendido {
+        gap: 10px;
+        margin-right: 3px;
+    }
+    main .subtitulo-lo-mas-vendido {
+        margin-top: 44px;
+        margin-bottom: 9px;
+    }
+    main .carrusel .lo-mas-vendido {
+      flex-direction: column;
+      align-items: center;
+    }
+    main .mes1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    main .mes2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    footer .encontranos {
+      font-size: 15px;
+      margin-bottom: 2px;
+      margin-left: 2px;
+    }
+    footer .ig {
+      height: 34px;
+      width: 34px;
+    }
+    footer .face {
+      height: 28px;
+      width: 31px;
+    }
+    footer .contactanos {
+      font-size: 18px;
+    }
+    footer .adress h3 {
+      font-size: 12px;
+    }
+    footer .numero h3 {
+      font-size: 12px;
+    }
+    .adress img {
+      height: 26px;
+      width: 26px;
+    }
+    .numero img {
+      height: 25px;
+      width: 25px;
+    }
+    footer .numero {
+      margin-bottom: 12px;
+    }
+    footer .medios-d-p h3 {
+      font-size: 11px;
+    }
+    footer .medios-d-p img {
+      margin-left: 3px;
+      width: 244px;
+    }
+    footer .medios-d-p h3 {
+        margin-left: 0px;
+    }
+  }
+}  
 @mixin screen-320px{
     @media (max-width:$screen-320){
         footer{
