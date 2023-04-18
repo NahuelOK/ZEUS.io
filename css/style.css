@@ -457,101 +457,102 @@ main .ubications {
     margin-left: 74px; }
 
 @media (max-width: 1024px) {
-  header .navbar div {
+  body header .navbar div {
     gap: 20px; }
-  header .navbar div div ul {
-    gap: 20px; }
-  main .carrusel .lo-mas-vendido {
+    body header .navbar div div ul {
+      gap: 19px; }
+  body main .carrusel .lo-mas-vendido {
     gap: 0px; }
-  .odm1 {
+  body main .odm1 {
     width: 260px;
     height: 410px; }
-  .mes2 {
+  body main .mes2 {
     padding-top: 0%; }
-  .contenedor-de-new {
+  body main .contenedor-de-new {
     padding-left: 7%; }
-  main .ubications .ubi {
+  body main .ubications .ubi {
     height: 350px;
     width: 350px; }
-  main div h3 {
+  body main div h3 {
     font-size: 20px; } }
 
 @media (max-width: 768px) {
-  header .navbar div div form {
+  body header .navbar div div form {
     width: 100%; }
-  .img-banner {
+  body header .img-y-envios .banner .img-banner {
     height: auto;
     width: 130px; }
-  .lo-mas-vendido {
-    padding-left: 0px; }
-  main .subtitulo-lo-mas-vendido {
+  body main .subtitulo-lo-mas-vendido {
     font-size: 30px; }
-  main .carrusel .lo-mas-vendido .articulos {
-    height: 317px;
-    width: 186px; }
-  .odm1 {
+  body main .carrusel .lo-mas-vendido {
+    padding-left: 0px; }
+    body main .carrusel .lo-mas-vendido .articulos {
+      height: 317px;
+      width: 186px; }
+  body main .odm {
+    font-size: 30px; }
+  body main .mes1 .odm1 {
     width: 220px;
     height: 380px; }
-  main .odm {
-    font-size: 30px; }
-  .checkbox {
-    width: 30%; }
-  .checkbox h5 {
-    font-size: 17px; }
-  .filtrado select {
-    width: 138px;
-    height: 52px;
-    font-size: 12px; }
-  main .filtrado {
+  body main .mes2 .odm1 {
+    width: 220px;
+    height: 380px; }
+  body main .filtrado {
     gap: 61%; }
-  main .inicio-sesion .poner-email .text-acount {
+    body main .filtrado .checkbox {
+      width: 30%; }
+      body main .filtrado .checkbox h5 {
+        font-size: 17px; }
+    body main .filtrado select {
+      width: 138px;
+      height: 52px;
+      font-size: 12px; }
+  body main form .inicio-sesion .poner-email .text-acount {
     font-size: 13px; }
-  main .inicio-sesion .poner-pass .text-acount {
+  body main form .inicio-sesion .poner-pass .text-acount {
     font-size: 13px; }
-  main .inicio-sesion .poner-pass .olv-pass .text-acount {
+  body main form .inicio-sesion .poner-pass .olv-pass .text-acount {
     font-size: 13px; }
-  main .inicio-sesion .iniciar-la-sesion .submit-i {
+  body main form .inicio-sesion .iniciar-la-sesion .submit-i {
     font-size: 14px; }
-  main .inicio-sesion .iniciar-la-sesion .text-acount {
+  body main form .inicio-sesion .iniciar-la-sesion .text-acount {
     font-size: 13px; }
-  footer .encontranos {
-    font-size: 17px; }
-  footer .ig {
-    height: 45px;
-    width: 45px; }
-  footer .face {
-    height: 37px;
-    width: 40px; }
-  footer .contactanos {
-    font-size: 22px; }
-  footer .adress h3 {
-    font-size: 19px; }
-  footer .numero h3 {
-    font-size: 20px; }
-  .numero img {
-    height: 30px;
-    width: 30px; }
-  .adress img {
-    height: 30px;
-    width: 30px; }
-  footer .medios-d-p img {
-    margin-left: 30px;
-    width: 550px; }
-  footer .medios-d-p h3 {
-    font-size: 18px; }
-  footer .creador {
-    font-size: 12px; }
-  main .sucursales {
+  body main .sucursales {
     margin-left: 5px; }
-  main .ubications .ubi {
+  body main .ubications .ubi {
     height: 320px;
     width: 320px;
     margin-left: -8px; }
-  main div h3 {
-    font-size: 19px; }
-  main .contenedor-de-prendas .prendas {
+  body main .contenedor-de-prendas .prendas {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto; } }
+    grid-template-rows: auto; }
+  body footer .encontranos {
+    font-size: 17px; }
+  body footer div .ig {
+    height: 45px;
+    width: 45px; }
+  body footer div .face {
+    height: 37px;
+    width: 40px; }
+  body footer .contactanos {
+    font-size: 22px; }
+  body footer .adress h3 {
+    font-size: 19px; }
+  body footer .adress img {
+    height: 30px;
+    width: 30px; }
+  body footer .numero h3 {
+    font-size: 20px; }
+  body footer .numero img {
+    height: 30px;
+    width: 30px; }
+  body footer .medios-d-p h3 {
+    font-size: 18px; }
+  body footer .medios-d-p img {
+    margin-left: 30px;
+    width: 550px; }
+  body footer .creador {
+    font-size: 12px; } }
 
 @media (max-width: 425px) {
   header .linea-de-ayuda {

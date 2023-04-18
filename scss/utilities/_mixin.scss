@@ -9,13 +9,27 @@
     width: $ancho;
 }
 @mixin screen-1024px{
-    @media (max-width:$screen-1024){
-        header .navbar div {
-          gap: 20px;}
-        header .navbar div div ul {
-          gap: 20px;}
-        main .carrusel .lo-mas-vendido {
-          gap: 0px;}
+  @media (max-width:$screen-1024){
+    body{
+      header{
+        .navbar{
+          div{
+            gap: 20px;
+            div{
+              ul{
+                gap: 19px;
+              }
+            }
+          }
+        }
+      }
+
+      main{
+        .carrusel{
+          .lo-mas-vendido{
+            gap: 0px;
+          }
+        }
         .odm1{
           width: 260px;
           height: 410px;
@@ -23,123 +37,186 @@
         .mes2{
           padding-top: 0%;
         }
+
         .contenedor-de-new{
           padding-left: 7%;
         }
-        main .ubications .ubi {
-          @include alto-ancho(350px,350px)
+
+        .ubications{
+          .ubi {
+            @include alto-ancho(350px,350px)
+          }
         }
-         main div h3 { 
-          font-size: 20px;
+        div {
+          h3 { 
+            font-size: 20px;
+          }
         }
+      }
     }
+  }     
 }
 @mixin screen-768px{
-    @media (max-width:$screen-768){
-        header .navbar div div form {
-          width: 100%;
+  @media (max-width:$screen-768){
+    body{
+      header{
+        .navbar{
+          div{
+            div{
+              form{
+                width: 100%;
+              }
+            }
+          }
+        }
+        .img-y-envios{
+          .banner{
+            .img-banner{
+              height: auto;
+              width: 130px;
+            }
+          }
+        }
       }
-      .img-banner{
-        height: auto;
-        width: 130px;
+
+      main{
+        .subtitulo-lo-mas-vendido{
+          font-size: 30px;
+        }
+        .carrusel{
+          .lo-mas-vendido{
+            padding-left: 0px;
+            .articulos{
+              height: 317px;
+              width: 186px;
+            }
+          }
+        }
+        .odm{
+          font-size: 30px;
+        }
+        .mes1{
+          .odm1 {
+            width: 220px;
+            height: 380px;
+        }
+        }
+        .mes2{
+          .odm1 {
+            width: 220px;
+            height: 380px;
+        }
+        }
+
+        .filtrado{
+          gap: 61%;
+          .checkbox{
+            width: 30%;
+            h5{
+              font-size: 17px;
+            }
+          }
+          select{
+            width: 138px;
+            height: 52px;
+            font-size: 12px;
+          }
+        }
+
+        form{
+          .inicio-sesion{
+            .poner-email{
+              .text-acount{
+                font-size: 13px;
+              }
+            }
+            .poner-pass{
+              .text-acount{
+                font-size: 13px;
+              }
+              .olv-pass{
+                .text-acount{
+                  font-size: 13px;
+                }
+              }
+            }
+            .iniciar-la-sesion{
+              .submit-i{
+                font-size: 14px;
+              }
+              .text-acount{
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        .sucursales {
+          margin-left: 5px
+        }
+        .ubications{
+          .ubi{
+            @include alto-ancho(320px,320px);
+            margin-left: -8px;
+          }
+        }
+
+        .contenedor-de-prendas{
+          .prendas{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+          }
+        }
       }
-      .lo-mas-vendido{
-        padding-left: 0px;
+
+      footer{
+        .encontranos{
+          font-size: 17px;
+        }
+        div{
+          .ig{
+            height: 45px;
+            width: 45px;
+          }
+          .face{
+            height: 37px;
+            width: 40px;
+          }
+        }
+        .contactanos{
+          font-size: 22px;
+        }
+        .adress{
+          h3{
+            font-size: 19px;
+          }
+          img{
+            height: 30px;
+            width: 30px;
+          }
+        }
+        .numero{
+          h3{
+            font-size: 20px;
+          }
+          img{
+            height: 30px;
+            width: 30px;
+          }
+        }
+        .medios-d-p{
+          h3{
+            font-size: 18px;
+          }
+          img{
+            margin-left: 30px;
+            width: 550px;
+          }
+        }
+        .creador {
+          font-size: 12px;
+        }
       }
-      main .subtitulo-lo-mas-vendido{
-        font-size: 30px;
-      }
-      main .carrusel .lo-mas-vendido .articulos {
-        height: 317px;
-        width: 186px;
-    }
-    .odm1 {
-        width: 220px;
-        height: 380px;
-    }
-    main .odm{
-      font-size: 30px;
-    }
-    .checkbox{
-      width: 30%;
-    }
-    .checkbox h5{
-      font-size: 17px;
-    }
-    .filtrado select{
-      width: 138px;
-      height: 52px;
-      font-size: 12px;
-    }
-    main .filtrado {
-      gap: 61%;
-    }
-    main .inicio-sesion .poner-email .text-acount {
-      font-size: 13px;
-    }
-    main .inicio-sesion .poner-pass .text-acount {
-      font-size: 13px;
-    }
-    main .inicio-sesion .poner-pass .olv-pass .text-acount {
-      font-size: 13px;
-    }
-    main .inicio-sesion .iniciar-la-sesion .submit-i {
-      font-size: 14px;
-    }
-    main .inicio-sesion .iniciar-la-sesion .text-acount {
-      font-size: 13px;
-    }
-    footer .encontranos {
-      font-size: 17px;
-    }
-    footer .ig {
-      height: 45px;
-      width: 45px;
-    }
-    footer .face {
-      height: 37px;
-      width: 40px;
-    }
-    footer .contactanos {
-      font-size: 22px;
-    }
-    footer .adress h3 {
-      font-size: 19px;
-    }
-    footer .numero h3 {
-      font-size: 20px;
-    }
-    .numero img{
-      height: 30px;
-      width: 30px;
-    }
-    .adress img{
-      height: 30px;
-      width: 30px;
-    }
-    footer .medios-d-p img {
-      margin-left: 30px;
-      width: 550px;
-    }
-    footer .medios-d-p h3 {
-      font-size: 18px;
-    }
-    footer .creador {
-      font-size: 12px;
-    }
-    main .sucursales {
-      margin-left: 5px
-    }
-    main .ubications .ubi {
-      @include alto-ancho(320px,320px);
-      margin-left: -8px;
-    }
-     main div h3 { 
-      font-size: 19px;
-    }
-    main .contenedor-de-prendas .prendas {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
     }
   }
 }
