@@ -137,6 +137,10 @@
      main div h3 { 
       font-size: 19px;
     }
+    main .contenedor-de-prendas .prendas {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+    }
   }
 }
 @mixin screen-425px{
@@ -272,6 +276,11 @@
       align-items: center;
       gap: 45px;
     }
+    main .contenedor-de-prendas .prendas {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      margin-top: 10px;
+    }
   }
 }  
 @mixin screen-375px{
@@ -400,6 +409,9 @@
     }
     main div .contacta {
       font-size: 28px;
+    }
+    main .contenedor-de-prendas .prendas {
+      grid-template-columns: 1fr;
     }
   }
 }  

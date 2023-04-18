@@ -548,7 +548,10 @@ main .ubications {
     width: 320px;
     margin-left: -8px; }
   main div h3 {
-    font-size: 19px; } }
+    font-size: 19px; }
+  main .contenedor-de-prendas .prendas {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto; } }
 
 @media (max-width: 425px) {
   header .linea-de-ayuda {
@@ -648,7 +651,11 @@ main .ubications {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px; } }
+    gap: 45px; }
+  main .contenedor-de-prendas .prendas {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 10px; } }
 
 @media (max-width: 375px) {
   footer {
@@ -743,7 +750,9 @@ main .ubications {
   main div p {
     font-size: 18px; }
   main div .contacta {
-    font-size: 28px; } }
+    font-size: 28px; }
+  main .contenedor-de-prendas .prendas {
+    grid-template-columns: 1fr; } }
 
 @media (max-width: 320px) {
   footer {
