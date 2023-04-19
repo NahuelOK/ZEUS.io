@@ -44,26 +44,6 @@ header .navbar {
       header .navbar div div ul li .dropdown-menu {
         background-color: #25b7c0; }
 
-main .contenedor-de-prendas {
-  margin-right: 80px;
-  display: flex;
-  justify-content: end;
-  padding-top: 0%; }
-  main .contenedor-de-prendas .prendas {
-    margin-bottom: 12%;
-    height: 70%;
-    width: 80%;
-    gap: 20px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 25% 25% 25% 25%;
-    padding-top: 0%; }
-    main .contenedor-de-prendas .prendas img {
-      border: solid black 1px;
-      width: 100%;
-      height: 100%; }
-
 footer {
   background-color: #004347;
   margin-top: 50px; }
@@ -118,6 +98,71 @@ footer {
     font-size: 14px;
     display: flex;
     justify-content: center; }
+
+main div {
+  padding-top: 5%;
+  padding-bottom: 3%; }
+  main div .quienes-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 34px;
+    padding-bottom: 15px; }
+  main div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px; }
+
+main div {
+  padding-left: 1%; }
+  main div .contacta {
+    color: black;
+    font-size: 34px; }
+  main div h3 {
+    padding-top: 18px;
+    color: black;
+    font-size: 20px; }
+
+main .sucursales {
+  padding-top: 5%;
+  padding-bottom: 3%; }
+  main .sucursales .t-sucur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 34px;
+    padding-bottom: 15px; }
+  main .sucursales p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 22px; }
+
+main .ubications {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 60px; }
+  main .ubications .datos1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; }
+  main .ubications .datos2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; }
+  main .ubications .ubi {
+    border: solid black 2px;
+    height: 400px;
+    width: 400px;
+    margin-left: 74px; }
 
 main .ayuda .pf {
   padding-top: 2%; }
@@ -236,6 +281,26 @@ main .mes1 {
 main .mes2 {
   display: flex;
   justify-content: center; }
+
+main .contenedor-de-prendas {
+  margin-right: 80px;
+  display: flex;
+  justify-content: end;
+  padding-top: 0%; }
+  main .contenedor-de-prendas .prendas {
+    margin-bottom: 12%;
+    height: 70%;
+    width: 80%;
+    gap: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding-top: 0%; }
+    main .contenedor-de-prendas .prendas img {
+      border: solid black 1px;
+      width: 100%;
+      height: 100%; }
 
 main .filtrado {
   display: flex;
@@ -391,71 +456,6 @@ main .inicio-sesion {
         color: #0c54b3;
         font-family: 'Inter', sans-serif; }
 
-main div {
-  padding-top: 5%;
-  padding-bottom: 3%; }
-  main div .quienes-somos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 34px;
-    padding-bottom: 15px; }
-  main div p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 22px; }
-
-main div {
-  padding-left: 1%; }
-  main div .contacta {
-    color: black;
-    font-size: 34px; }
-  main div h3 {
-    padding-top: 18px;
-    color: black;
-    font-size: 20px; }
-
-main .sucursales {
-  padding-top: 5%;
-  padding-bottom: 3%; }
-  main .sucursales .t-sucur {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 34px;
-    padding-bottom: 15px; }
-  main .sucursales p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 22px; }
-
-main .ubications {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  gap: 60px; }
-  main .ubications .datos1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 35px; }
-  main .ubications .datos2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 35px; }
-  main .ubications .ubi {
-    border: solid black 2px;
-    height: 400px;
-    width: 400px;
-    margin-left: 74px; }
-
 @media (max-width: 1024px) {
   body header .navbar div {
     gap: 20px; }
@@ -555,315 +555,167 @@ main .ubications {
     font-size: 12px; } }
 
 @media (max-width: 425px) {
-  header .linea-de-ayuda {
+  body header .linea-de-ayuda {
     align-items: center;
     justify-content: center; }
-  .img-banner {
-    height: auto;
-    width: 105px; }
-  .img-y-envios .banner {
+  body header .img-y-envios .banner {
     height: 162%; }
-  main .carrusel .lo-mas-vendido {
-    gap: 10px;
-    margin-right: 3px; }
-  main .subtitulo-lo-mas-vendido {
+    body header .img-y-envios .banner .img-banner {
+      height: auto;
+      width: 105px; }
+  body main .subtitulo-lo-mas-vendido {
     margin-top: 44px;
     margin-bottom: 9px; }
-  main .carrusel .lo-mas-vendido {
+  body main .carrusel .lo-mas-vendido {
+    gap: 10px;
+    margin-right: 3px;
     flex-direction: column;
     align-items: center; }
-  main .mes1 {
+  body main .mes1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 10px; }
-  main .mes2 {
+  body main .mes2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 10px; }
-  footer {
-    margin-top: 0px; }
-  footer .encontranos {
-    font-size: 17px;
-    margin-bottom: 2px;
-    margin-left: 2px; }
-  footer .ig {
-    height: 34px;
-    width: 34px; }
-  footer .face {
-    height: 28px;
-    width: 31px; }
-  footer .contactanos {
-    font-size: 20px; }
-  footer .adress h3 {
-    font-size: 14px; }
-  footer .numero h3 {
-    font-size: 14px; }
-  .adress img {
-    height: 26px;
-    width: 26px; }
-  .numero img {
-    height: 25px;
-    width: 25px; }
-  footer .numero {
-    margin-bottom: 12px; }
-  footer .medios-d-p h3 {
-    font-size: 12px; }
-  footer .medios-d-p img {
-    margin-left: 3px;
-    width: 244px; }
-  footer .medios-d-p h3 {
-    margin-left: 0px; }
-  main .filtrado {
+  body main .filtrado {
     flex-direction: column;
     margin-top: 5px; }
-  main .filtrado .checkbox {
-    flex-direction: row; }
-  main .contenedor-de-new .news {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    padding: 0px;
-    padding-left: 20px;
-    gap: 10px; }
-  main .contenedor-de-new .news .div-foto-new {
-    width: 100%;
-    height: 100%; }
-  main .contenedor-de-new {
+    body main .filtrado .checkbox {
+      flex-direction: row; }
+  body main .contenedor-de-new {
     margin-right: 13%; }
-  main .contenedor-de-new .news img {
-    border: solid black 1px;
-    width: 100%;
-    height: 100%; }
-  main .inicio-sesion {
+    body main .contenedor-de-new .news {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 16% 16% 16% 16% 16% 16%;
+      padding: 0px;
+      padding-left: 20px;
+      gap: 10px; }
+      body main .contenedor-de-new .news .div-foto-new {
+        width: 100%;
+        height: 100%; }
+        body main .contenedor-de-new .news .div-foto-new img {
+          border: solid black 1px;
+          width: 100%;
+          height: 100%; }
+  body main form .inicio-sesion {
     gap: 20px; }
-  main .inicio-sesion .poner-email input {
-    height: 39%; }
-  main div .quienes-somos {
+    body main form .inicio-sesion .poner-email input {
+      height: 39%; }
+  body main div .quienes-somos {
     font-size: 30px; }
-  main div p {
+  body main div p {
     font-size: 19px; }
-  main div .contacta {
+  body main div .contacta {
     font-size: 31px; }
-  main .ubications {
+  body main .ubications {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 45px; }
-  main .contenedor-de-prendas .prendas {
+  body main .contenedor-de-prendas .prendas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  body footer {
+    margin-top: 0px; }
+    body footer .encontranos {
+      font-size: 17px;
+      margin-bottom: 2px;
+      margin-left: 2px; }
+    body footer .ig {
+      height: 34px;
+      width: 34px; }
+    body footer .face {
+      height: 28px;
+      width: 31px; }
+    body footer .contactanos {
+      font-size: 20px; }
+    body footer .adress h3 {
+      font-size: 14px; }
+    body footer .adress img {
+      height: 26px;
+      width: 26px; }
+    body footer .numero {
+      margin-bottom: 12px; }
+      body footer .numero h3 {
+        font-size: 14px; }
+      body footer .numero img {
+        height: 25px;
+        width: 25px; }
+    body footer .medios-d-p h3 {
+      font-size: 12px;
+      margin-left: 0px; }
+    body footer .medios-d-p img {
+      margin-left: 3px;
+      width: 244px; } }
 
 @media (max-width: 375px) {
-  footer {
-    margin-top: 0px; }
-  header .linea-de-ayuda {
-    align-items: center;
-    justify-content: center; }
-  .img-banner {
-    height: auto;
-    width: 105px; }
-  .img-y-envios .banner {
-    height: 162%; }
-  main .carrusel .lo-mas-vendido {
-    gap: 10px;
-    margin-right: 3px; }
-  main .subtitulo-lo-mas-vendido {
-    margin-top: 44px;
-    margin-bottom: 9px; }
-  main .carrusel .lo-mas-vendido {
-    flex-direction: column;
-    align-items: center; }
-  main .mes1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; }
-  main .mes2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; }
-  footer .encontranos {
-    font-size: 16px;
-    margin-bottom: 2px;
-    margin-left: 2px; }
-  footer .ig {
-    height: 34px;
-    width: 34px; }
-  footer .face {
-    height: 28px;
-    width: 31px; }
-  footer .contactanos {
-    font-size: 19px; }
-  footer .adress h3 {
-    font-size: 13px; }
-  footer .numero h3 {
-    font-size: 13px; }
-  .adress img {
-    height: 26px;
-    width: 26px; }
-  .numero img {
-    height: 25px;
-    width: 25px; }
-  footer .numero {
-    margin-bottom: 12px; }
-  footer .medios-d-p h3 {
-    font-size: 11px; }
-  footer .medios-d-p img {
-    margin-left: 3px;
-    width: 244px; }
-  footer .medios-d-p h3 {
-    margin-left: 0px; }
-  main .filtrado {
-    flex-direction: column;
-    margin-top: 5px; }
-  main .filtrado .checkbox {
-    flex-direction: row; }
-  main .contenedor-de-new .news {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    padding: 0px;
-    padding-left: 20px;
-    gap: 10px; }
-  main .contenedor-de-new .news .div-foto-new {
-    width: 100%;
-    height: 100%; }
-  main .contenedor-de-new {
-    margin-right: 13%; }
-  main .contenedor-de-new .news img {
-    border: solid black 1px;
-    width: 100%;
-    height: 100%; }
-  main .inicio-sesion {
-    gap: 20px; }
-  main .inicio-sesion .poner-email input {
-    height: 39%; }
-  main div .quienes-somos {
+  body main div .quienes-somos {
     font-size: 29px; }
-  main div p {
+  body main div p {
     font-size: 18px; }
-  main div .contacta {
+  body main div .contacta {
     font-size: 28px; }
-  main .contenedor-de-prendas .prendas {
-    grid-template-columns: 1fr; } }
+  body main .contenedor-de-prendas .prendas {
+    grid-template-columns: 1fr; }
+  body footer .encontranos {
+    font-size: 16px; }
+  body footer .contactanos {
+    font-size: 19px; }
+  body footer .adress h3 {
+    font-size: 13px; }
+  body footer .numero h3 {
+    font-size: 13px; }
+  body footer .medios-d-p h3 {
+    font-size: 11px; } }
 
 @media (max-width: 320px) {
-  footer {
-    margin-top: 0px; }
-  header .linea-de-ayuda {
-    align-items: center;
-    justify-content: center; }
-  .img-banner {
-    height: auto;
-    width: 100px; }
-  .img-y-envios .banner {
+  body header .img-y-envios .banner {
     height: 160%; }
-  main .carrusel .lo-mas-vendido {
-    gap: 10px;
-    margin-right: 3px; }
-  main .subtitulo-lo-mas-vendido {
-    margin-top: 44px;
-    margin-bottom: 9px; }
-  main .carrusel .lo-mas-vendido {
-    flex-direction: column;
-    align-items: center; }
-  main .mes1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; }
-  main .mes2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; }
-  footer .encontranos {
-    font-size: 15px;
-    margin-bottom: 2px;
-    margin-left: 2px; }
-  footer .ig {
-    height: 34px;
-    width: 34px; }
-  footer .face {
-    height: 28px;
-    width: 31px; }
-  footer .contactanos {
-    font-size: 18px; }
-  footer .adress h3 {
-    font-size: 12px; }
-  footer .numero h3 {
-    font-size: 12px; }
-  .adress img {
-    height: 26px;
-    width: 26px; }
-  .numero img {
-    height: 25px;
-    width: 25px; }
-  footer .numero {
-    margin-bottom: 12px; }
-  footer .medios-d-p h3 {
-    font-size: 10px; }
-  footer .medios-d-p img {
-    margin-left: 3px;
-    width: 244px; }
-  footer .medios-d-p h3 {
-    margin-left: 0px; }
-  main .filtrado {
-    flex-direction: column;
-    margin-top: 5px; }
-  main .filtrado .checkbox {
-    flex-direction: row; }
-  main .contenedor-de-new .news {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    padding: 0px;
-    padding-left: 20px;
-    gap: 10px; }
-  main .contenedor-de-new .news .div-foto-new {
-    width: 100%;
-    height: 100%; }
-  main .contenedor-de-new {
-    margin-right: 13%; }
-  main .contenedor-de-new .news img {
-    border: solid black 1px;
-    width: 100%;
-    height: 100%; }
-  main .inicio-sesion {
-    gap: 20px; }
-  main .inicio-sesion .poner-email input {
-    height: 39%; }
-  main div .quienes-somos {
+    body header .img-y-envios .banner .img-banner {
+      width: 100px; }
+  body main div .quienes-somos {
     font-size: 27px; }
-  main div p {
+  body main div p {
     font-size: 17px; }
-  main div .contacta {
+  body main div .contacta {
     font-size: 26px; }
-  main div h3 {
+  body main div h3 {
     font-size: 17px; }
-  main .ubications .ubi {
+  body main .ubications .ubi {
     height: 300px;
     width: 300px;
     margin-left: -1px; }
-  main .sucursales p {
-    font-size: 20px; }
-  main .ayuda .pf .titulo-preg {
+  body main .ayuda .pf .titulo-preg {
     font-size: 25px; }
-  main .ayuda .pf .preguntas .pregunta .resp {
+  body main .ayuda .pf .preguntas .pregunta .resp {
     font-size: 16px; }
-  main .cambios-y-d .intro-dyd {
+  body main .ayuda .cambios-y-d .intro-dyd {
     font-size: 16px; }
-  main .cuidado-de-prendas .intro-cdp {
+  body main .ayuda .cambios-y-d .fin-cyd {
     font-size: 16px; }
-  main .cambios-y-d .fin-cyd {
-    font-size: 16px; } }
+  body main .ayuda .cuidado-de-prendas .intro-cdp {
+    font-size: 16px; }
+  body footer .encontranos {
+    font-size: 15px; }
+  body footer .ig {
+    height: 32px;
+    width: 32px; }
+  body footer .face {
+    height: 26px;
+    width: 29px; }
+  body footer .contactanos {
+    font-size: 18px; }
+  body footer .adress h3 {
+    font-size: 12px; }
+  body footer .numero h3 {
+    font-size: 12px; }
+  body footer .medios-d-p h3 {
+    font-size: 10px; } }
