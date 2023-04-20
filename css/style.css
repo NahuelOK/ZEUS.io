@@ -618,7 +618,12 @@ main .inicio-sesion {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px; }
+    gap: 45px;
+    padding-left: 0px; }
+    body main .ubications .datos1 {
+      padding-left: 0px; }
+    body main .ubications .datos2 {
+      padding-left: 0px; }
   body main .contenedor-de-prendas .prendas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -657,6 +662,9 @@ main .inicio-sesion {
       width: 244px; } }
 
 @media (max-width: 375px) {
+  body main .contenedor-de-new .news {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
   body main div .quienes-somos {
     font-size: 29px; }
   body main div p {
@@ -665,6 +673,8 @@ main .inicio-sesion {
     font-size: 28px; }
   body main .contenedor-de-prendas .prendas {
     grid-template-columns: 1fr; }
+  body main .ayuda .cuidado-de-prendas .fin-cuidados {
+    margin-left: 7%; }
   body footer .encontranos {
     font-size: 16px; }
   body footer .contactanos {
@@ -699,9 +709,15 @@ main .inicio-sesion {
     font-size: 16px; }
   body main .ayuda .cambios-y-d .intro-dyd {
     font-size: 16px; }
+  body main .ayuda .cambios-y-d .cambios-list li {
+    font-size: 16px; }
+  body main .ayuda .cambios-y-d .devoluciones-list li {
+    font-size: 16px; }
   body main .ayuda .cambios-y-d .fin-cyd {
     font-size: 16px; }
   body main .ayuda .cuidado-de-prendas .intro-cdp {
+    font-size: 16px; }
+  body main .ayuda .cuidado-de-prendas .consejos li {
     font-size: 16px; }
   body footer .encontranos {
     font-size: 15px; }

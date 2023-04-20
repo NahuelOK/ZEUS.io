@@ -325,6 +325,13 @@
           flex-direction: column;
           align-items: center;
           gap: 45px;
+          padding-left: 0px;
+          .datos1{
+            padding-left: 0px;
+          }
+          .datos2{
+            padding-left: 0px;
+          }
         }
 
         .contenedor-de-prendas{
@@ -391,6 +398,13 @@
   @media (max-width:$screen-375){
     body{
       main{
+        .contenedor-de-new{
+          .news{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+          }
+        }
+        
         div{
           .quienes-somos{
             font-size: 29px;
@@ -408,6 +422,14 @@
         .contenedor-de-prendas{
           .prendas{
             grid-template-columns: 1fr;
+          }
+        }
+
+        .ayuda{
+          .cuidado-de-prendas{
+            .fin-cuidados{
+              margin-left: 7%;
+            }
           }
         }
       }
@@ -494,6 +516,16 @@
             .intro-dyd{
               font-size: 16px
             }
+            .cambios-list{
+              li{
+                font-size: 16px;
+              }
+            }
+            .devoluciones-list{
+              li{
+                font-size: 16px;
+              }
+            }
             .fin-cyd {
               font-size: 16px
             }
@@ -501,6 +533,11 @@
           .cuidado-de-prendas{
             .intro-cdp{
               font-size: 16px
+            }
+            .consejos{
+              li{
+                font-size: 16px;
+              }
             }
           }
         }
