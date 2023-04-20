@@ -684,6 +684,10 @@ main .inicio-sesion {
     margin-left: 7%; }
   body main .crear input {
     width: 92%; }
+  body main .crear .boton-registro input {
+    font-size: 14px; }
+  body main .crear .nacimiento input {
+    width: 80%; }
   body footer .encontranos {
     font-size: 16px; }
   body footer .contactanos {
