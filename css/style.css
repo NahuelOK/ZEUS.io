@@ -526,6 +526,8 @@ main .inicio-sesion {
   body main .contenedor-de-prendas .prendas {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto; }
+  body main .crear {
+    padding-left: 0%; }
   body footer .encontranos {
     font-size: 17px; }
   body footer div .ig {
@@ -628,6 +630,11 @@ main .inicio-sesion {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin-top: 10px; }
+  body main .crear {
+    grid-template-columns: 1fr 1fr; }
+    body main .crear input {
+      width: 96%;
+      margin: 2px; }
   body footer {
     margin-top: 0px; }
     body footer .encontranos {
@@ -675,6 +682,8 @@ main .inicio-sesion {
     grid-template-columns: 1fr; }
   body main .ayuda .cuidado-de-prendas .fin-cuidados {
     margin-left: 7%; }
+  body main .crear input {
+    width: 92%; }
   body footer .encontranos {
     font-size: 16px; }
   body footer .contactanos {

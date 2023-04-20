@@ -167,6 +167,10 @@
             grid-template-rows: auto;
           }
         }
+
+        .crear{
+          padding-left: 0%;
+        }
       }
 
       footer{
@@ -341,6 +345,14 @@
             margin-top: 10px;
           }
         }
+
+        .crear{
+          grid-template-columns: 1fr 1fr;
+          input{
+            width: 96%;
+            margin: 2px;
+          }
+        }
       }
 
       footer{
@@ -430,6 +442,12 @@
             .fin-cuidados{
               margin-left: 7%;
             }
+          }
+        }
+
+        .crear{
+          input{
+            width: 92%;
           }
         }
       }
