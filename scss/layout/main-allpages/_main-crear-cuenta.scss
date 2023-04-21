@@ -10,8 +10,7 @@ main{
         justify-content: center;
         padding-bottom: 50px;
         display: grid;
-        grid-template-columns: 20% 10% 20%;
-        grid-template-rows:33% 33% 33% 33% ;
+        @include grids-template(33% 33% 33% 33%, 20% 10% 20%);
         padding-left: 6%;
         .h4-crear{
             font-size: 14px;

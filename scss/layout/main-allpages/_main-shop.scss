@@ -6,13 +6,11 @@ main{
         padding-top: 0%;
         .prendas{
             margin-bottom: 12%;
-            height: 70%;
             width: 80%;
             gap: 20px;
             height: 100%;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows:25% 25% 25% 25%;
+            @include grids-template(25% 25% 25% 25%, 1fr 1fr 1fr 1fr);
             padding-top: 0%;
             img{
                 border: solid black 1px;

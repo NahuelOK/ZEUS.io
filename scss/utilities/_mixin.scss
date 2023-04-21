@@ -8,6 +8,10 @@
     height: $alto;
     width: $ancho;
 }
+@mixin grids-template($trow, $tcolumn){
+  grid-template-rows: $trow;
+  grid-template-columns: $tcolumn;
+}
 @mixin screen-1024px{
   @media (max-width:$screen-1024){
     body{
@@ -31,8 +35,7 @@
           }
         }
         .odm1{
-          width: 260px;
-          height: 410px;
+          @include alto-ancho(410px,260px);
         }
         .mes2{
           padding-top: 0%;
@@ -72,8 +75,7 @@
         .img-y-envios{
           .banner{
             .img-banner{
-              height: auto;
-              width: 130px;
+              @include alto-ancho(auto,130px);
             }
           }
         }
@@ -87,8 +89,7 @@
           .lo-mas-vendido{
             padding-left: 0px;
             .articulos{
-              height: 317px;
-              width: 186px;
+              @include alto-ancho(317px, 186px);
             }
           }
         }
@@ -97,14 +98,12 @@
         }
         .mes1{
           .odm1 {
-            width: 220px;
-            height: 380px;
+            @include alto-ancho(380px, 220px);
         }
         }
         .mes2{
           .odm1 {
-            width: 220px;
-            height: 380px;
+            @include alto-ancho(380px, 220px);
         }
         }
 
@@ -117,8 +116,7 @@
             }
           }
           select{
-            width: 138px;
-            height: 52px;
+            @include alto-ancho(52px, 138px);
             font-size: 12px;
           }
         }
@@ -163,8 +161,7 @@
 
         .contenedor-de-prendas{
           .prendas{
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: auto;
+            @include grids-template(auto, 1fr 1fr 1fr);
           }
         }
 
@@ -179,12 +176,10 @@
         }
         div{
           .ig{
-            height: 45px;
-            width: 45px;
+            @include alto-ancho(45px, 45px);
           }
           .face{
-            height: 37px;
-            width: 40px;
+            @include alto-ancho(37px, 40px);
           }
         }
         .contactanos{
@@ -195,8 +190,7 @@
             font-size: 19px;
           }
           img{
-            height: 30px;
-            width: 30px;
+            @include alto-ancho(30px, 30px);
           }
         }
         .numero{
@@ -204,8 +198,7 @@
             font-size: 20px;
           }
           img{
-            height: 30px;
-            width: 30px;
+            @include alto-ancho(30px, 30px);
           }
         }
         .medios-d-p{
@@ -236,8 +229,7 @@
           .banner{
             height: 162%;
             .img-banner{
-              height: auto;
-              width: 105px;
+              @include alto-ancho(auto, 105px);
             }
           }
         }
@@ -257,17 +249,11 @@
           }
         }
         .mes1{
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          align-items: center;
+          @include display-flex(flex, column, center, center);
           gap: 10px;
         }
         .mes2{
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          align-items: center;
+          @include display-flex(flex, column, center, center);
           gap: 10px;
         }
 
@@ -282,8 +268,7 @@
           margin-right: 13%;
           .news{
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 16% 16% 16% 16% 16% 16%;
+            @include grids-template(16% 16% 16% 16% 16% 16%, 1fr 1fr);
             padding: 0px;
             padding-left: 20px;
             gap: 10px;
@@ -292,8 +277,7 @@
               height: 100%;
               img{
                 border: solid black 1px;
-                width: 100%;
-                height: 100%;
+                @include alto-ancho(100%, 100%);
               }
             }
           }
@@ -340,8 +324,7 @@
 
         .contenedor-de-prendas{
           .prendas{
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
+            @include grids-template(auto, 1fr 1fr);
             margin-top: 10px;
           }
         }
@@ -363,12 +346,10 @@
           margin-left: 2px;
         }
         .ig {
-          height: 34px;
-          width: 34px;
+          @include alto-ancho(34px, 34px);
         }
         .face {
-          height: 28px;
-          width: 31px;
+          @include alto-ancho(28px, 31px);
         }
         .contactanos {
           font-size: 20px;
@@ -378,8 +359,7 @@
             font-size: 14px;
           }
           img{
-            height: 26px;
-            width: 26px;
+            @include alto-ancho(26px, 26px);
           }
         }
         .numero{
@@ -388,8 +368,7 @@
             font-size: 14px;
           }
           img {
-            height: 25px;
-            width: 25px;
+            @include alto-ancho(25px, 25px);
           }
         }
         .medios-d-p{
@@ -412,8 +391,7 @@
       main{
         .contenedor-de-new{
           .news{
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
+            @include grids-template(auto, 1fr);
           }
         }
         
@@ -576,12 +554,10 @@
           font-size: 15px;
         }
         .ig {
-          height: 32px;
-          width: 32px;
+          @include alto-ancho(32px, 32px);
         }
         .face {
-          height: 26px;
-          width: 29px;
+          @include alto-ancho(26px, 29px);
         }
         .contactanos{
           font-size: 18px;

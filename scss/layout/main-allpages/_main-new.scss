@@ -35,8 +35,7 @@ main{
             gap: 20px;
             height: 100%;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows:25% 25% 25% 25%;
+            @include grids-template(25% 25% 25% 25%, 1fr 1fr 1fr);
             padding-top: 0%;
         }
         .news img{
