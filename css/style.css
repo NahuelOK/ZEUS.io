@@ -229,16 +229,19 @@ main .cuidado-de-prendas .fin-cuidados {
 .img-y-envios {
   display: grid;
   grid-template-rows: 82% 18%; }
-  .img-y-envios .img-de-entrada img {
+  .img-y-envios .img-de-entrada {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    background-image: url(../assets/Group1.png);
+    background-size: 100% 100%;
+    margin-bottom: 35%; }
   .img-y-envios .banner {
     border: solid rgba(27, 25, 25, 0.9) 1px;
     background-color: rgba(36, 32, 32, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 90%;
     width: 100%; }
     .img-y-envios .banner img {
       margin-left: 1%;
@@ -585,11 +588,17 @@ main .inicio-sesion {
   body header .linea-de-ayuda {
     align-items: center;
     justify-content: center; }
+  body header .img-y-envios .img-de-entrada {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/fondo320.png);
+    background-size: 100% 100%;
+    margin-bottom: 124%; }
   body header .img-y-envios .banner {
-    height: 162%; }
-    body header .img-y-envios .banner .img-banner {
-      height: auto;
-      width: 105px; }
+    height: 70%; }
+    body header .img-y-envios .banner img {
+      width: auto;
+      height: 68%; }
   body main .subtitulo-lo-mas-vendido {
     margin-top: 44px;
     margin-bottom: 9px; }
@@ -706,6 +715,8 @@ main .inicio-sesion {
       width: 244px; } }
 
 @media (max-width: 375px) {
+  body header .img-y-envios .banner .img-banner {
+    width: 117px; }
   body main .contenedor-de-new .news {
     grid-template-rows: auto;
     grid-template-columns: 1fr; }
@@ -750,7 +761,7 @@ main .inicio-sesion {
 
 @media (max-width: 320px) {
   body header .img-y-envios .banner {
-    height: 160%; }
+    height: 70%; }
     body header .img-y-envios .banner .img-banner {
       width: 100px; }
   body main div .quienes-somos {

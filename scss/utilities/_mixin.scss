@@ -232,10 +232,17 @@
           justify-content: center;
         }
         .img-y-envios{
-          .banner{
-            height: 162%;
-            .img-banner{
-              @include alto-ancho(auto, 105px);
+          .img-de-entrada{
+            @include alto-ancho(100%, 100%);
+            background-image: url(../assets/fondo320.png);
+            background-size: 100% 100%;
+            margin-bottom: 124%;
+          }
+        .banner{
+            height: 70%;
+            img{
+                width: auto;
+                height: 68%;
             }
           }
         }
@@ -413,6 +420,16 @@
 @mixin screen-375px{
   @media (max-width:$screen-375){
     body{
+      header{
+        .img-y-envios{
+          .banner{
+            .img-banner{
+              width: 117px;
+            }
+          }
+        }
+      }
+
       main{
         .contenedor-de-new{
           .news{
@@ -518,7 +535,7 @@
       header{
         .img-y-envios{
           .banner{
-            height: 160%;
+            height: 70%;
             .img-banner{
               width: 100px;
             }
