@@ -1,0 +1,32 @@
+main{
+    .carro-vacio{
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        h1{
+            color: black;
+            font-size: 50px;
+        }
+        h2{
+            color: black;
+            font-size: 30px;
+        }
+        .opciones-pago-carro{
+            margin-top: 6%;
+            font-size: 21px;
+        }
+        a{
+            input{
+                @include alto-ancho(70px, 180px);
+                background-color: black;
+                color: white;
+                font-size: 24px;
+                border-radius: 3%;
+                margin-top: 24px;
+            }            
+        }
+        img{
+            margin-top: 2%;
+        }
+    }
+}

@@ -168,6 +168,12 @@
         .crear{
           padding-left: 0%;
         }
+
+        .carro-vacio{
+          img{
+            width:95%;
+          }
+        }
       }
 
       footer{
@@ -336,6 +342,25 @@
             margin: 2px;
           }
         }
+
+        .carro-vacio{
+          margin-top: 15%;
+          margin-bottom: 20%;
+          h1{
+            font-size: 35px;
+          }
+          h2{
+            font-size: 20px;
+          }
+          .opciones-pago-carro{
+            font-size: 18px;
+          }
+          a{
+            input{
+              @include alto-ancho(58px, 148px);
+            }
+          }
+        }
       }
 
       footer{
@@ -436,6 +461,27 @@
             input{
               width: 80%;
             }
+          }
+        }
+
+        .carro-vacio{
+          h1{
+            font-size: 30px;
+          }
+          h2{
+            font-size: 18px;
+          }
+          .opciones-pago-carro{
+            font-size: 17px;
+          }
+          a{
+            input{
+              @include alto-ancho(50px, 134px);
+              font-size: 20px;
+            }
+          }
+          img{
+              width: 98%;
           }
         }
       }
@@ -545,6 +591,27 @@
                 font-size: 16px;
               }
             }
+          }
+        }
+
+        .carro-vacio{
+          h1{
+            font-size: 28px;
+          }
+          h2{
+            font-size: 15px;
+          }
+          .opciones-pago-carro{
+            font-size: 15px;
+          }
+          a{
+            input{
+              @include alto-ancho(45px, 120px);
+              font-size: 18px;
+            }
+          }
+          img{
+              width: 98%;
           }
         }
       }
