@@ -29,6 +29,9 @@
       }
 
       main{
+        .wsp{
+          left: 94%;
+        }
         .carrusel{
           .lo-mas-vendido{
             gap: 0px;
@@ -84,6 +87,10 @@
       }
 
       main{
+        .wsp{
+          left: 93%;
+          @include alto-ancho(44px, 44px);
+        }
         .subtitulo-lo-mas-vendido{
           font-size: 30px;
         }
@@ -254,6 +261,10 @@
       }
       
       main{
+        .wsp{
+          left: 88%;
+          @include alto-ancho(42px, 42px);
+        }
         .subtitulo-lo-mas-vendido{
           margin-top: 44px;
           margin-bottom: 9px;
@@ -549,6 +560,11 @@
       }
 
       main{
+        .wsp{
+          left: 87%;
+          top: 72%;
+          @include alto-ancho(38px, 38px);
+        }
         div{
           .quienes-somos{
             font-size: 27px;

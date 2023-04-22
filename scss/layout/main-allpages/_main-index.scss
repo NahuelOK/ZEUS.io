@@ -23,6 +23,14 @@
 }
 
 main{
+    .wsp{
+        position: absolute;
+        @include alto-ancho(48px,48px);
+        position: fixed;
+        top: 88%;
+        left: 96%;
+
+    }
     .subtitulo-lo-mas-vendido{
         display: flex;
         justify-content: center;

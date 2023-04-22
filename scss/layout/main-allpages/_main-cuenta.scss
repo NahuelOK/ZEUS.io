@@ -8,7 +8,7 @@ main{
         padding-bottom: 0px;
         .poner-email{
             gap: 8px;
-            display: flex;
+        display: flex;
             align-items: flex-start;
             @include alto-ancho(80px,100%);
             grid-column: 2/2;

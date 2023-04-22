@@ -258,6 +258,14 @@ main .cuidado-de-prendas .fin-cuidados {
       margin-left: 1%;
       margin-right: 1%; }
 
+main .wsp {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  position: fixed;
+  top: 88%;
+  left: 96%; }
+
 main .subtitulo-lo-mas-vendido {
   display: flex;
   justify-content: center;
@@ -514,6 +522,8 @@ main .inicio-sesion {
     gap: 20px; }
     body header .navbar div div ul {
       gap: 19px; }
+  body main .wsp {
+    left: 94%; }
   body main .carrusel .lo-mas-vendido {
     gap: 0px; }
   body main .odm1 {
@@ -537,6 +547,10 @@ main .inicio-sesion {
   body header .img-y-envios .banner .img-banner {
     height: auto;
     width: 130px; }
+  body main .wsp {
+    left: 93%;
+    height: 44px;
+    width: 44px; }
   body main .subtitulo-lo-mas-vendido {
     font-size: 30px; }
   body main .carrusel .lo-mas-vendido {
@@ -633,6 +647,10 @@ main .inicio-sesion {
     body header .img-y-envios .banner img {
       width: auto;
       height: 68%; }
+  body main .wsp {
+    left: 88%;
+    height: 42px;
+    width: 42px; }
   body main .subtitulo-lo-mas-vendido {
     margin-top: 44px;
     margin-bottom: 9px; }
@@ -798,6 +816,11 @@ main .inicio-sesion {
     height: 70%; }
     body header .img-y-envios .banner .img-banner {
       width: 100px; }
+  body main .wsp {
+    left: 87%;
+    top: 72%;
+    height: 38px;
+    width: 38px; }
   body main div .quienes-somos {
     font-size: 27px; }
   body main div p {
