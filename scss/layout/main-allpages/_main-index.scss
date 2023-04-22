@@ -44,6 +44,9 @@ main{
                 .articulos{
                     @include alto-ancho(375px,240px);
                 }
+                .articulos:hover{
+                    border: solid rgba(0, 0, 0, 0) 8px;
+                }
         }
     }
     .odm{
@@ -57,9 +60,18 @@ main{
     .mes1{
         display: flex;
         justify-content: center;
+        gap: 26px;
+        .odm1:hover{
+            border: solid rgb(0, 0, 0) 1px;
+        }
     }
     .mes2{
         display: flex;
         justify-content: center;
+        gap: 28px;
+        padding-left: 0px;
+        .odm1:hover{
+            border: solid rgb(0, 0, 0) 1px;
+        }
     }
 }

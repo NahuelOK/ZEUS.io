@@ -24,6 +24,10 @@ main{
                 border-radius: 3%;
                 margin-top: 24px;
             }            
+            input:hover{
+                border: solid $color-principal-A 1px;
+                color: $color-principal-A;
+            }
         }
         img{
             margin-top: 2%;

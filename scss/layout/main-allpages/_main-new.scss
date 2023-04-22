@@ -4,13 +4,13 @@ main{
         justify-content: end;
         margin-right: 28px;
         margin-top: 38px;
-        gap: 70%;
+        gap: 68%;
         padding: 0px;
         .checkbox{
             font-size: 18px;
             gap: 8px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
         }
         div{
             input{
@@ -37,10 +37,14 @@ main{
             display: grid;
             @include grids-template(25% 25% 25% 25%, 1fr 1fr 1fr);
             padding-top: 0%;
+            img{
+                border: solid black 1px;
+                @include alto-ancho(100%,100%);
+            }
+            img:hover{
+                border: solid rgb(0, 0, 0) 2px;
+            }
         }
-        .news img{
-            border: solid black 1px;
-            @include alto-ancho(100%,100%);
-        }
+        
     }
 }

@@ -39,5 +39,8 @@ main{
             @include alto-ancho(400px,400px);
             margin-left: 74px;
         }
+        .ubi:hover{
+            border: solid rgb(0, 0, 0) 3px;
+        }
     }
 }

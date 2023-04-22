@@ -25,6 +25,8 @@ header .linea-de-ayuda {
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     margin-right: 8px; }
+  header .linea-de-ayuda .a-ayuda:hover {
+    text-decoration: underline; }
 
 header .navbar {
   padding: 0px; }
@@ -42,7 +44,10 @@ header .navbar {
     header .navbar div div ul {
       gap: 39px; }
       header .navbar div div ul li .dropdown-menu {
-        background-color: #25b7c0; }
+        background-color: #25b7c0;
+        border-bottom: solid #004347 3px; }
+      header .navbar div div ul li:hover {
+        border-bottom: solid black 1px; }
 
 footer {
   background-color: #004347;
@@ -54,9 +59,13 @@ footer {
   footer .ig {
     height: 50px;
     width: 50px; }
+  footer .ig:hover {
+    border: solid rgba(0, 0, 0, 0) 2px; }
   footer .face {
     height: 43px;
     width: 43px; }
+  footer .face:hover {
+    border: solid rgba(0, 0, 0, 0) 2px; }
   footer .contactanos {
     color: white;
     font-size: 26px;
@@ -163,6 +172,8 @@ main .ubications {
     height: 400px;
     width: 400px;
     margin-left: 74px; }
+  main .ubications .ubi:hover {
+    border: solid black 3px; }
 
 main .ayuda .pf {
   padding-top: 2%; }
@@ -268,6 +279,8 @@ main .carrusel {
     main .carrusel .lo-mas-vendido .articulos {
       height: 375px;
       width: 240px; }
+    main .carrusel .lo-mas-vendido .articulos:hover {
+      border: solid rgba(0, 0, 0, 0) 8px; }
 
 main .odm {
   display: flex;
@@ -279,11 +292,18 @@ main .odm {
 
 main .mes1 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  gap: 26px; }
+  main .mes1 .odm1:hover {
+    border: solid black 1px; }
 
 main .mes2 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  gap: 28px;
+  padding-left: 0px; }
+  main .mes2 .odm1:hover {
+    border: solid black 1px; }
 
 main .contenedor-de-prendas {
   margin-right: 80px;
@@ -303,19 +323,21 @@ main .contenedor-de-prendas {
       border: solid black 1px;
       width: 100%;
       height: 100%; }
+    main .contenedor-de-prendas .prendas img:hover {
+      border: solid black 2px; }
 
 main .filtrado {
   display: flex;
   justify-content: end;
   margin-right: 28px;
   margin-top: 38px;
-  gap: 70%;
+  gap: 68%;
   padding: 0px; }
   main .filtrado .checkbox {
     font-size: 18px;
     gap: 8px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
   main .filtrado div input {
     height: 18px;
     width: 18px; }
@@ -340,10 +362,12 @@ main .contenedor-de-new {
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 0%; }
-  main .contenedor-de-new .news img {
-    border: solid black 1px;
-    height: 100%;
-    width: 100%; }
+    main .contenedor-de-new .news img {
+      border: solid black 1px;
+      height: 100%;
+      width: 100%; }
+    main .contenedor-de-new .news img:hover {
+      border: solid black 2px; }
 
 main .carro-vacio {
   margin-top: 3%;
@@ -366,6 +390,9 @@ main .carro-vacio {
     font-size: 24px;
     border-radius: 3%;
     margin-top: 24px; }
+  main .carro-vacio a input:hover {
+    border: solid #25b7c0 1px;
+    color: #25b7c0; }
   main .carro-vacio img {
     margin-top: 2%; }
 
@@ -493,7 +520,9 @@ main .inicio-sesion {
     height: 410px;
     width: 260px; }
   body main .mes2 {
-    padding-top: 0%; }
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 2%; }
   body main .contenedor-de-new {
     padding-left: 7%; }
   body main .ubications .ubi {
@@ -517,12 +546,17 @@ main .inicio-sesion {
       width: 186px; }
   body main .odm {
     font-size: 30px; }
-  body main .mes1 .odm1 {
-    height: 380px;
-    width: 220px; }
-  body main .mes2 .odm1 {
-    height: 380px;
-    width: 220px; }
+  body main .mes1 {
+    gap: 12px;
+    padding-left: 0px; }
+    body main .mes1 .odm1 {
+      height: 380px;
+      width: 220px; }
+  body main .mes2 {
+    gap: 12px; }
+    body main .mes2 .odm1 {
+      height: 380px;
+      width: 220px; }
   body main .filtrado {
     gap: 61%; }
     body main .filtrado .checkbox {

@@ -9,8 +9,14 @@ footer{
     .ig{
        @include alto-ancho(50px,50px);
     }
+    .ig:hover{
+        border: solid rgba(0, 0, 0, 0) 2px;
+    }
     .face{
         @include alto-ancho(43px,43px);
+    }
+    .face:hover{
+        border: solid rgba(0, 0, 0, 0) 2px;
     }
     .contactanos{
         color: white;

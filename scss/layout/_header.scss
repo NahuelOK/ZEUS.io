@@ -7,13 +7,16 @@ header{
         align-items: center;
         gap: 24px;
         color: black;
-            .a-ayuda{
-                text-decoration: none;
-                color: black;
-                font-family: 'Inter', sans-serif;
-                font-size: 13px;
-                margin-right: 8px
-            }
+        .a-ayuda{
+            text-decoration: none;
+            color: black;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            margin-right: 8px
+        }
+        .a-ayuda:hover{
+            text-decoration: underline;
+        }
     }
     
     .navbar{
@@ -38,11 +41,12 @@ header{
                     li{
                         .dropdown-menu{
                             background-color: $color-principal-A;
-                        
+                            border-bottom: solid $color-principal-B 3px;
                         }
-                    
                     }
-                
+                    li:hover{
+                        border-bottom: solid black 1px;
+                    }
                 }
             }    
         }   
